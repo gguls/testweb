@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>03.13</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+       
+        .header {
+          background-color: #f1f1f1;
+          padding: 30px;
+          text-align: center;
+          font-size: 35px;
+        }
+        
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 10px;
+          height: 300px; 
+        }
+        
+
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+       
+      
+       
+        @media (max-width: 600px) {
+          .column {
+            width: 100%;
+          }
+        }
+        </style>
+</head>
+<body style="background-color:rgb(100, 100, 100);" >
+
+    <header class="header">
+        <div class="header__logo"></div>
+            <a href="#">
+               <h1  style="color:rgb(221, 221, 221)";> Lea Yeong Hun </h1>
+               <P>1997.03.13</P>
+            </a>
+        <div class="header__gnb">
+            <ul>
+                <li><a href="index.html"  target="_blank">INTRODUCTION</a></li>
+                <li><a href="career.html" target="_blank" >CAREER</a></li>
+                <li><a href="certificate.html" target="_blank" >CERTIFICATE</a></li>
+                <li><a href="hobby.html" target="_blank" >HOBBY</a></li>
+                <li><a href="reading.html" target="_blank" >READING</a></li>
+            </ul>
+        </div>
+        <div class="header2">
+          <h2>hobby</h2>
+        </div>
+
+        
+       
+        
+        <div class="header">
+          <h2>현재 </h2>
+        </div>
+        
+        <div class="row">
+          <div class="column" style="background-color:#aaa;"><img src="../image/공예.jpg" alt="탈무드" style="width:200px;height:200px;"> 가죽공예</div>
+          <div class="column" style="background-color:#bbb;"><img src="../image/노래.jpg" alt="탈무드" style="width:200px;height:200px;">노래</div>
+          <div class="column" style="background-color:#ccc;"><img src="../image/축구.jpg" alt="탈무드" style="width:200px;height:200px;">축구</div>
+        </div>
+        
+        <div class="footer">
+         
+        </div>   
+
+
+       
+        <div class="header">
+          <h2>미래</h2>
+        </div>
+        
+        <div class="row">
+          <div class="column" style="background-color:#aaa;"><img src="../image/소묘.jpg" alt="탈무드" style="width:200px;height:200px;">소묘</div>
+          <div class="column" style="background-color:#bbb;"><img src="../image/다이빙.jpg" alt="탈무드" style="width:200px;height:200px;">프리다이빙</div>
+          <div class="column" style="background-color:#ccc;"><img src="../image/춤.jpg" alt="탈무드" style="width:200px;height:200px;">춤</div>
+        </div>
+        
+        <div class="footer">
+          
+        </div>   
+    </header>
